@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="0" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-03T20:49:19Z" name="Default suite" finished-at="2021-01-03T20:49:19Z" duration-ms="103">
+    <groups>
+    </groups>
+    <test started-at="2021-01-03T20:49:19Z" name="Default test" finished-at="2021-01-03T20:49:19Z" duration-ms="103">
+      <class name="Academy.E2EProjects.ValidateTitle">
+        <test-method signature="TitleValidation()[pri:0, instance:Academy.E2EProjects.ValidateTitle@74cec793]" started-at="2021-01-03T15:49:19Z" name="TitleValidation" finished-at="2021-01-03T15:49:19Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleValidation -->
+      </class> <!-- Academy.E2EProjects.ValidateTitle -->
+      <class name="Academy.E2EProjects.ValidateNavigationBar">
+        <test-method signature="NavigateBarValidation()[pri:0, instance:Academy.E2EProjects.ValidateNavigationBar@3c9168dc]" started-at="2021-01-03T15:49:19Z" name="NavigateBarValidation" finished-at="2021-01-03T15:49:19Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateBarValidation -->
+      </class> <!-- Academy.E2EProjects.ValidateNavigationBar -->
+      <class name="Academy.E2EProjects.HomePage">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:Academy.E2EProjects.HomePage@f9b7332]" started-at="2021-01-03T15:49:19Z" name="Initialize" finished-at="2021-01-03T15:49:19Z" duration-ms="0" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\geena\eclipse-workspace\E2EProjects\src\test\java\resources\E2EProjects\data.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\geena\eclipse-workspace\E2EProjects\src\test\java\resources\E2EProjects\data.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at resources.BaseClass.IntializeDriver(BaseClass.java:25)
+	at Academy.E2EProjects.HomePage.Initialize(HomePage.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:Academy.E2EProjects.ValidateNavigationBar@3c9168dc]" started-at="2021-01-03T15:49:19Z" name="Initialize" finished-at="2021-01-03T15:49:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:Academy.E2EProjects.ValidateTitle@74cec793]" started-at="2021-01-03T15:49:19Z" name="Initialize" finished-at="2021-01-03T15:49:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProjects.HomePage@f9b7332]" started-at="2021-01-03T15:49:19Z" name="BasePageNavigation" data-provider="getData" finished-at="2021-01-03T15:49:19Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object Academy.E2EProjects.HomePage.getData() must return either Object[][] or Iterator<Object>[], not class java.lang.Object]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object Academy.E2EProjects.HomePage.getData() must return either Object[][] or Iterator<Object>[], not class java.lang.Object
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Academy.E2EProjects.HomePage@f9b7332]" started-at="2021-01-03T15:49:19Z" name="TearDown" finished-at="2021-01-03T15:49:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Academy.E2EProjects.ValidateNavigationBar@3c9168dc]" started-at="2021-01-03T15:49:19Z" name="TearDown" finished-at="2021-01-03T15:49:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Academy.E2EProjects.ValidateTitle@74cec793]" started-at="2021-01-03T15:49:19Z" name="TearDown" finished-at="2021-01-03T15:49:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Academy.E2EProjects.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

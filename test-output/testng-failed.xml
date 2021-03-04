@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="Academy.E2EProjects.ValidateNavigationBar">
+        <methods>
+          <include name="NavigateBarValidation"/>
+        </methods>
+      </class> <!-- Academy.E2EProjects.ValidateNavigationBar -->
+      <class name="Academy.E2EProjects.HomePage">
+        <methods>
+          <include name="Initialize"/>
+          <include name="BasePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.E2EProjects.HomePage -->
+      <class name="Academy.E2EProjects.ValidateTitle">
+        <methods>
+          <include name="TitleValidation"/>
+        </methods>
+      </class> <!-- Academy.E2EProjects.ValidateTitle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
